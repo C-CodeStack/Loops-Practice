@@ -1,49 +1,49 @@
-module.exports = problem1 = () => {
+const problem1 = () => {
   
   return 
 }
 
-module.exports = problem2 = () => {
+const problem2 = () => {
   
   return 
 }
 
-module.exports = problem3 = (number) => {
+const problem3 = (number) => {
   
   return 
 }
 
-module.exports = problem4 = (number) => {
+const problem4 = (number) => {
   
   return 
 }
 
-module.exports = problem5 = (numbers) => {
+const problem5 = (numbers) => {
   
   return 
 }
 
-module.exports = problem6 = (word) => {
+const problem6 = (word) => {
   
   return 
 }
 
-module.exports = problem7 = () => {
+const problem7 = () => {
   
   return 
 }
 
-module.exports = problem8 = (word) => {
+const problem8 = (word) => {
   
   return 
 }
 
-module.exports = problem9 = (number) => {
+const problem9 = (number) => {
   
   return 
 }
 
-module.exports = problem10 = (number) => {
+const problem10 = (number) => {
   
   return 
 }
@@ -58,3 +58,5 @@ problem7()
 problem8("beef")
 problem9(3)
 problem10(13)
+
+module.exports = { problem1, problem2, problem3, problem4, problem5, problem6, problem7, problem8, problem9, problem10 }
